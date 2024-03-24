@@ -6,7 +6,7 @@ import numpy as np
 from typing import Any
 
 from preprocessing import get_datetime, set_schema_simulation_period
-from electric_pricing import generate_24_price
+from models.electric_pricing import generate_24_price
 
 from citylearn.agents.base import Agent
 from citylearn.citylearn import CityLearnEnv
